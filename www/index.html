@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prism Information License</title>
+        <meta content="http://pil.jester-designs.com/" property="og:url">
+        <meta content="A License For open source software and sharing how to setup that software" name="description">
+        <meta content="A License For open source software and sharing how to setup that software" property="og:description">
+        <meta content="Prism Information License" property="og:title">
+        <meta content="/images/pngs/pil.png" property="og:image">
+        <meta name="twitter:title" content="Prism Information License">
+        <meta name="twitter:description" content="A License For open source software and sharing how to setup that software">
+        <meta name="twitter:image" content="/images/pngs/pil.png">
+	<link href="/images/favicon/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 20px; /* Base font size for better readability */
+    transition: background-color 0.5s, color 0.5s;
+    width: 100vw;
+    height: 100vh;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #182B6A;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #182B6A;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content-left, .content-left-temp, .content-left-code {
+    text-align: left;
+    overflow-wrap: break-word;
+    width: 90%; /* Responsive width */
+    max-width: 1200px; /* Maximum width for larger screens */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e1e1e;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for mobile */
+    }
+    .content-left, .content-left-temp, .content-left-code {
+        width: 95%; /* Adjust width for mobile */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    body {
+        font-size: 15px; /* Adjust font size for tablets */
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+	    <img src="images/pngs/pil.png" style="width: 100px; height: 100%;"><h1>Prism Information License (PIL)</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#why">Why</a>
+        </nav>
+    </header>
+    <div class="content" id="home">
+        <h2>What is it?</h2>
+        <p>This is a software licence designed for those that not only wish to share their software but share the information about how it works from the front to the back like a prism.</p>
+	    <div class="content-left-code">
+        <h2>This is the license:</h2>
+	<code>
+		<pre>
+# Prism Information License (PIL)
+Copyright (c) [Year] [Your Name or Organization and/or Email]
+
+This software is licensed under the Prism Information License (PIL).
+
+- You are free to use, modify, and distribute this software.
+- Any derivative work must include this license.
+- You must also provide a concise explanation of how to operate this software,
+  as well as backends and frontends (if any) that work with this software.
+- You must credit the original creator of this software.
+- You may choose to license this software under additional licenses, provided that the terms of the original PIL are still adhered to.
+
+This software is provided "as is", without any warranty of any kind,
+express or implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and non-infringement.
+
+By using this software, you agree to the terms of the PIL.
+For more information visit: https://pil.jester-designs.com/
+		</pre>
+	</code>
+	    </div>
+	    <div class="content-left-temp">
+        <h2>Or click for one of the templates:</h2>
+	<ul>
+		<li><a href="/docs/PIL.txt">PIL</a></li>
+		<li><a href="docs/PILpBGRS.txt">PIL+BGRS</a></li>
+	</ul>
+	    </div>
+    </div>
+    <div class="content" id="about" style="display:none;">
+        <h2>About This license</h2>
+	    <div class="content-left-temp">
+        <p>- This license can be Multi-Licensed with others.</p>
+        <p>- If your software doesn't use any other backends (NGINX, MariaDB, ETC) then only an explanation of how to use the software is required. (a manpage is enough so long as an example of how to use the software is included in the manpage)</p>
+	    </div>
+    </div>
+    <div class="content" id="why" style="display:none;">
+        <h2>Why Choose This License?</h2>
+	    <div class="content-left-temp">
+        <p>While most software licenses are great, MIT, (A)GPL, etc. Software licenses typically do not mandate providing detailed technical explanations of the software's internal workings in a way that's easily understandable for non-technical users.</p>
+        <p>This license requires a simple explanation on how to use said software and if said software works with the frontend and/or the backend to explain how that should work.</p>
+        <p>(Examples would be using said software with a custom CDN using NGINX, an NGINX config to be used with said software, or in conjunction with custom databases like MariaDB or other softwares you've written and/or not written)</p>
+	    </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Prism Information License.</p>
+    </footer>
+    <script>
+        const homeLink = document.querySelector('a[href="#home"]');
+        const aboutLink = document.querySelector('a[href="#about"]');
+        const whyLink = document.querySelector('a[href="#why"]');
+        const homeContent = document.getElementById('home');
+        const aboutContent = document.getElementById('about');
+        const whyContent = document.getElementById('why');
+
+        homeLink.addEventListener('click', () => {
+            homeContent.style.display = 'block';
+            aboutContent.style.display = 'none';
+            whyContent.style.display = 'none';
+        });
+
+        aboutLink.addEventListener('click', () => {
+            homeContent.style.display = 'none';
+            aboutContent.style.display = 'block';
+            whyContent.style.display = 'none';
+        });
+
+        whyLink.addEventListener('click', () => {
+            homeContent.style.display = 'none';
+            aboutContent.style.display = 'none';
+            whyContent.style.display = 'block';
+        });
+	window.addEventListener('load', function() {  window.scroll(0, 0) })
+    </script>
+</body>
+</html>
