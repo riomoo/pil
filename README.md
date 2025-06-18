@@ -1,6 +1,6 @@
 <div align="center">
 
-# Prism Information License
+![Prism Information License](www/images/pngs/title-logo.png)
 
 </div>
 
@@ -18,7 +18,7 @@ This is a software licence designed for those that not only wish to share their 
 
 ## About
 - This license can be Multi-Licensed with others.
-- If your software doesn't use any other backends (NGINX, MariaDB, ETC) then only an explanation of how to use the software is required. (a manpage is enough so long as an example of how to use the software is included in the manpage)
+- If your software doesn't use any other backends (NGINX, MariaDB, ETC) or frontends, then only an explanation of how to use the software is required. (a manpage is enough so long as an example of how to use the software is included in the manpage)
 
 ## Why Choose This License?
 - While most software licenses are great, MIT, (A)GPL, etc. Software licenses typically do not mandate providing detailed technical explanations of the software's internal workings in a way that's easily understandable for non-technical users.</p>
