@@ -110,6 +110,9 @@ pre {
     }
 }
     </style>
+    <script>
+	window.addEventListener('load', function() {  window.scroll(0, 0) })
+    </script>
 </head>
 <body>
     <header>
@@ -160,7 +163,7 @@ For more information visit: https://pil.jester-designs.com/
         <h2>About This license</h2>
 	    <div class="content-left-temp">
         <p>- This license can be Multi-Licensed with others.</p>
-        <p>- If your software doesn't use any other backends (NGINX, MariaDB, ETC) then only an explanation of how to use the software is required. (a manpage is enough so long as an example of how to use the software is included in the manpage)</p>
+        <p>- If your software doesn't use any other backends (NGINX, MariaDB, ETC) or frontends, then only an explanation of how to use the software is required. (a manpage is enough so long as an example of how to use the software is included in the manpage)</p>
 	    </div>
     </div>
     <div class="content" id="why" style="display:none;">
@@ -170,6 +173,12 @@ For more information visit: https://pil.jester-designs.com/
         <p>This license requires a simple explanation on how to use said software and if said software works with the frontend and/or the backend to explain how that should work.</p>
         <p>(Examples would be using said software with a custom CDN using NGINX, an NGINX config to be used with said software, or in conjunction with custom databases like MariaDB or other softwares you've written and/or not written)</p>
 	    </div>
+    </div>
+    <div class="content-left-temp">
+	<h2>Creator:</h2>
+	<div><a href="https://codeberg.org/riomoo">Codeberg Riomoo</a></div>
+	<div><a href="https://gitgud.io/riomoo">GitGud Riomoo</a></div>
+	<div><a href="https://github.com/riomoo">Github Riomoo</a></div>
     </div>
     <footer>
         <p>&copy; 2025 Prism Information License.</p>
@@ -199,7 +208,6 @@ For more information visit: https://pil.jester-designs.com/
             aboutContent.style.display = 'none';
             whyContent.style.display = 'block';
         });
-	window.addEventListener('load', function() {  window.scroll(0, 0) })
     </script>
 </body>
 </html>
