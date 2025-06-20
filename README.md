@@ -14,7 +14,7 @@
 * [PIL License](LICENSE)
 
 ## What is it?
-This is a software licence designed for those that not only wish to share their software but share the information about how it works from the front to the back like a prism.
+This is a software license designed for those that not only wish to share their software but share the information about how it works from the front to the back like a prism.
 
 ## About
 - This license can be Multi-Licensed with others.
