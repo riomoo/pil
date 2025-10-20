@@ -1,12 +1,12 @@
 <div align="center">
 
-![Prism Information License](www/images/pngs/title-logo.png)
+![Prism Information License](public/images/pngs/title-logo.png)
 
 </div>
 
 ## License
 
-[![Custom badge](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fshare.jester-designs.com%2Fmedia%2Fbank%2Fkeep%2Fpil.json)](LICENSE)
+[![Custom badge](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fshare.jester-designs.com%2Fview%2Fpil.json)](LICENSE)
 
 ## Project Template
 
